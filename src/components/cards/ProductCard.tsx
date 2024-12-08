@@ -12,9 +12,9 @@ interface IProps {
   title: string;
   description: string;
   price: string;
-  otherPrice: string;
-  type: string;
-  typeValue: string;
+  otherPrice?: string;
+  type?: string;
+  typeValue?: string;
 }
 
 function ProductCard({

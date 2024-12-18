@@ -119,8 +119,8 @@ export default function ProductDetailShowcaseSection({
     }
 
     toast({
-      title: "Cat in the Bag :)",
-      description: "Product added to cart successfully",
+      title: "Done",
+      description: "Added to cart!",
       action: <ToastAction altText="Goto schedule to undo">Close</ToastAction>,
     });
   };

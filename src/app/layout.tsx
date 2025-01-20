@@ -7,8 +7,8 @@ import { Toaster } from "@/components/ui/toaster";
 import LoadingIndicator from "@/components/common/LoadingIndicator";
 
 export const metadata: Metadata = {
-  title: "Furniro Ecommerce",
-  description: "Get any furniture items on the fly",
+  title: "Furniro 🛋️ by mshsheikh",
+  description: "Good furniture lasts a lifetime",
 };
 
 const poppin = Poppins({

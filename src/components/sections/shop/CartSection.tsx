@@ -33,7 +33,6 @@ export default function CartSection({
   };
 
   useEffect(() => {
-    computeSubTotal();
   }, [products]);
   return (
     <div className="w-[417px] h-[746px] bg-white p-[30px] flex justify-between flex-col">

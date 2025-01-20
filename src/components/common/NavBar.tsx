@@ -66,6 +66,7 @@ function NavBar() {
   return (
     <div className="relative">
       <div className="md:sticky md:top-0 md:shadow-none z-20 relative">
+        {/* DESKTOP */}
         <div className="hidden lg:block animate-in fade-in zoom-in bg-white p-4">
           <div className="flex justify-between mx-[41px] items-center">
             <Link href="/">
@@ -109,7 +110,6 @@ function NavBar() {
             </div>
           </div>
         </div>
-
         <div
           className={`block lg:hidden shadow-sm fixed top-0 w-full z-[999] bg-white py-4 animate-in fade-in zoom-in ${menu ? " !bg-[#FFF3E3] py-2" : ""}`}
         >

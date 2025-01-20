@@ -77,7 +77,7 @@ const SearchBar = () => {
               </div>
             ))
           ) : (
-            <div className="p-2 text-gray-500">No products found</div>
+            <div className="p-2 text-gray-500">Sorry, no related products found</div>
           )}
         </div>
       )}

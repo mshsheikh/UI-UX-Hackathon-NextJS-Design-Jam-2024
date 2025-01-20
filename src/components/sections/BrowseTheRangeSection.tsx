@@ -18,7 +18,9 @@ function BrowseTheRangeSection() {
   return (
     <section>
       <div>
-        <p className="mt-16 text-[32px] font-bold text-center">Browse The Range</p>
+        <p className="mt-16 text-[32px] font-bold text-center">
+          Browse The Range
+        </p>
         <p className="text-20 text-customGray text-center">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>

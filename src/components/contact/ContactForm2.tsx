@@ -59,7 +59,7 @@ const ContactForm2: React.FC<ContactFormProps> = ({
               <img
                 src={addressIcon}
                 alt="address-icon"
-                style={{ width: '32px', height: '32px' }} // Location icon size 32px
+                style={{ width: '32px', height: '32px' }}
               />
               <div>
                 <span className="text-[24px] font-medium">Address</span>
@@ -72,7 +72,7 @@ const ContactForm2: React.FC<ContactFormProps> = ({
               <img
                 src={phone}
                 alt="phone-icon"
-                style={{ width: '32px', height: '32px' }} // Phone icon size 32px
+                style={{ width: '32px', height: '32px' }}
               />
               <div>
                 <span className="text-[24px] font-medium">Phone</span>
@@ -88,7 +88,7 @@ const ContactForm2: React.FC<ContactFormProps> = ({
               <img
                 src={workingTime}
                 alt="time-icon"
-                style={{ width: '32px', height: '32px' }} // Clock icon size 32px 
+                style={{ width: '32px', height: '32px' }}
               />
               <div>
                 <span className="text-[24px] font-medium">Working Time</span>

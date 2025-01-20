@@ -13,7 +13,6 @@ import { Separator } from "@/components/ui/separator";
 function ShopFilterSection() {
   return (
     <section className="bg-[#F9F1E7] px-4 py-[31px] flex flex-col md:flex-row gap-8 justify-around items-center">
-      {/* LHS */}
       <div className="flex gap-8 items-center">
         <div className="flex gap-2 items-center hover:cursor-pointer">
           <img
@@ -38,7 +37,6 @@ function ShopFilterSection() {
         </div>
         <p className="text-normal">Showing 1 - 16 of 32 results</p>
       </div>
-      {/* RHS */}
       <div className="flex gap-8">
         <div className="flex gap-[17px] items-center">
           <p className="text-[20px]">Show</p>

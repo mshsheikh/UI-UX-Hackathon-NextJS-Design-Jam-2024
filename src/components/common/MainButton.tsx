@@ -50,8 +50,8 @@ const MainButton = forwardRef<HTMLButtonElement, MainButtonProps>(
       size === "normal"
         ? "h-[70px]"
         : size === "large"
-        ? "h-[74px]"
-        : "h-[70px";
+          ? "h-[74px]"
+          : "h-[70px";
 
     const variant_hover =
       variant === "primary" ? "hover:bg-primary" : "hover:bg-secondary";
@@ -102,7 +102,6 @@ const MainButton = forwardRef<HTMLButtonElement, MainButtonProps>(
   }
 );
 
-// Assigned display name
 MainButton.displayName = "MainButton";
 
 export default MainButton;

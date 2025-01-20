@@ -81,7 +81,7 @@ function FooterSection() {
             <Input placeholder="Enter Your Email Address" />
 
             <div>
-              <p className="font-medium underline underline-offset-[6px]">
+              <p className="font-medium underline underline-offset-[7px]">
                 SUBSCRIBE
               </p>
             </div>

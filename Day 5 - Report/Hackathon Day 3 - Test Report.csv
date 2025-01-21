@@ -1,0 +1,16 @@
+Test Case ID,Test Case Description,Test Steps,Tools Used,Actual Result,Status,Severity,Assigned To,Remarks
+TC-01,Functional Testing,"Product listing displays all items correctly
+Filters and search return accurate results
+Cart operations (add, update, delete) work seamlessly
+Product detail pages load dynamically and show relevant data","Cypress, Postman",Successfully Completed,Passed,High,-,No issues found on website load
+TC-02,Performance Testing,"Identify and fix bottlenecks in page load times.
+Optimize images, minimize CSS/JS, and implement caching","Lighthouse, GTmatrix",Successfully Completed,Passed,High,-,97% Positive
+TC-03,Cross-Browser and Device Testing,"Ensure functionality on Chrome, Firefox, Safari, and Edge
+Validate responsiveness on desktop, tablet, and mobile views","Chorme DevTools
+Microsoft Edge, Brave",Successfully Completed,Passed,Medium,-,Responsive on several browsers
+TC-04,Error Handling,"Handle API failures gracefully (e.g., network issues, invalid data)
+Display fallback UI for ""no data"" scenarios
+Ensure invalid inputs trigger validation errors (e.g., forms)",-,-,Pending,Medium,-,-
+TC-05,Security Testing,"Validate input sanitization to prevent SQL/XSS attacks
+Ensure all API requests are HTTPS-secured
+Scan for vulnerabilities using OWASP ZAP",-,-,Pending,High,-,-
